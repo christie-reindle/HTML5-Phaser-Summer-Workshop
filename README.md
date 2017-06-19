@@ -709,7 +709,7 @@ function spawnCoin(coin) {
 
 ![Static coins](https://mozdevs.github.io/html5-games-workshop/assets/platformer/static_coins.png)
 
-#### Add an animation! - !~EXTRA~!
+#### Add an animation! - ! EXTRA !
 
 1. Each sprite can have multiple animations, but here we only need one (the coin rotating). When adding a new animation, we specify which frame indices it will use. Optionally, we can set the animation speed (measured in frames per second) and whether the animation should loop or not. We will add and play the animation in the spawnCoin method:
 
@@ -1038,7 +1038,7 @@ function onHeroVsEnemy(hero, enemy){
 
 Bouncing on enemies
 
-### Dying animation
+### Dying animation ! EXTRA !
 
 1. Let's make killing enemies even more satisfying by adding an animation for when the spider has been hit. We will use the last two frames of the spritesheet for this.
 
@@ -1188,7 +1188,7 @@ Try it in the browser and see how the text changes with every coin collected!
 
 ![Level with coin score board](https://mozdevs.github.io/html5-games-workshop/assets/platformer/level_coin_scoreboard.png)
 
-## Animations for the main character
+## Animations for the main character ! EXTRA !
 
 Right now we have a few animated sprites in the game: the coins and the enemy spiders. But none for the main character! We are going to implement them now.
 
